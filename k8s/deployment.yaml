@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: wil-playground
-          image: wil42/playground:v2   # <- tag contrôlé par Git (v1 / v2)
+          image: wil42/playground:v1   # <- tag contrôlé par Git (v1 / v2)
           ports:
             - containerPort: 80
